@@ -17,22 +17,27 @@
         <form action="/">
             <p>
             <div><label for="name">Name</label></div>
-            <input id="name" type="text" placeholder="Enter your name">
+            <input id="name" name="name" type="text" placeholder="Enter your name">
             </p>
 
             <p>
             <div><label for="email">Email</label></div>
-            <input id="email" type="email" placeholder="Enter your email">
+            <input id="email" name="email" type="email" placeholder="Enter your email">
             </p>
 
             <p>
             <div><label for="mobile">Mobile Number</label></div>
-            <input id="mobile" type="tel" placeholder="Enter your mobile Number">
+            <input id="mobile" name ="mobile" type="tel" placeholder="Enter your mobile Number">
             </p>
 
             <p>
             <div><label for="password">Password</label></div>
-            <input id="password" type="password" placeholder="Enter your password">
+            <input id="password" name ="password" type="password" placeholder="Enter your password">
+            </p>
+
+            <p>
+            <input id="agree" name="agree" type="checkbox" required>
+            <label for="agree">Agree to terms & conditions</label>
             </p>
             <button type="reset">Reset</button>
             <button type="submit">Submit</button>
