@@ -2,4 +2,4 @@
 # Simple html web page
 
 ## Image
-![front-end](.images/)
+![front-end](./images/image.png)
