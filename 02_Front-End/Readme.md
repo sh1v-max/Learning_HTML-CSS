@@ -6,8 +6,4 @@
 
 ## Live Project Link
 
-
-```markdown
 [Live Project](https://thefirstwebdev.netlify.app/)
-```
-
