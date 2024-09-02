@@ -6,10 +6,76 @@
     <title>Document</title>
 </head>
 <body>
+
+    <!--https://youtu.be/XilLk1woFfw?list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&t=1410-->
+
     <h1>HTML Form</h1>
-    <form action="/">
-        <input type="text" name="seach">
-        in
+    <h2>Google search</h2>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="Search">
+        <button>Seach on Google</button>
     </form>
+    <h2>YouTube seach</h2>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query" placeholder="Search">
+        <button>Seach on YouTube</button>
+    </form>
+    <h2>Flipkart search</h2>
+    <form action="https://www.flipkart.com/search">
+        <input type="text" name="q" placeholder="Search">
+        <button>Seach on Flipkart</button>
+    </form>
+    <h2>My Form</h2>
+    <form action="/">
+        <input type="" name="a" placeholder="Enter your name">
+        <button>Submit</button>
+    </form>
+    <form action="/">
+        <input type="password" placeholder="Enter the password" minlength="6" maxlength="10">
+        <button>Submit</button>
+    </form>
+
+    <div style="background-color: rgb(53, 53, 53); color: antiquewhite;">
+        <h2>Form in HTML</h2>
+        <p>Form is a collection of elements that are used to gather information from the user. It is a container for form-related elements such as input fields, buttons, select menus, textarea, and etc.</p>
+        <p>Form is created using the <code>&lt;form&gt;</code> element. The <code>&lt;form&gt;</code> element has an action attribute which specifies the URL of the page that will process the form data when the form is submitted.</p>
+        <p>Form has two methods: <code>GET</code> and <code>POST</code>. The <code>GET</code> method adds the form data to the URL and the <code>POST</code> method sends the form data in the request body.</p>
+        <p>Form has an attribute called <code>method</code> which specifies the method of the form. The default value of the <code>method</code> attribute is <code>GET</code>.</p>
+        <p>Form can also have an attribute called <code>enctype</code> which specifies how the form data should be encoded when the form is submitted.</p>
+        <p>The <code>&lt;input&gt;</code> element is used to create a form control. The type attribute of the <code>&lt;input&gt;</code> element specifies the type of the form control. The most common types of form controls are:</p>
+        <ul>
+            <li><code>text</code>: A text input field</li>
+            <li><code>password</code>: A password input field</li>
+            <li><code>email</code>: An email input field</li>
+            <li><code>url</code>: A URL input field</li>
+            <li><code>tel</code>: A telephone input field</li>
+            <li><code>number</code>: A number input field</li>
+            <li><code>date</code>, <code>month</code>, <code>week</code>, <code>time</code>, <code>datetime-local</code>: A date and/or time input field</li>
+            <li><code>color</code>: A color picker</li>
+            <li><code>range</code>: A range input field</li>
+            <li><code>checkbox</code>: A checkbox input field</li>
+            <li><code>radio</code>: A radio input field</li>
+            <li><code>file</code>: A file input field</li>
+            <li><code>submit</code>: A submit button</li>
+            <li><code>reset</code>: A reset button</li>
+            <li><code>button</code>: A generic button</li>
+        </ul>
+        <p>The <code>&lt;textarea&gt;</code> element is used to create a multi-line text input field.</p>
+        <p>The <code>&lt;select&gt;</code> element is used to create a dropdown list of options.</p>
+        <p>The <code>&lt;option&gt;</code> element is used to specify an option in a dropdown list.</p>
+        <p>The <code>&lt;label&gt;</code> element is used to associate a text with a form control. The for attribute of the <code>&lt;label&gt;</code> element specifies the id of the form control.</p>
+        <p>The <code>&lt;fieldset&gt;</code> element is used to group related form controls together.</p>
+        <p>The <code>&lt;legend&gt;</code> element is used to specify the caption for a <code>&lt;fieldset&gt;</code> element.</p>
+        <p>Example of a form:</p>
+        <form action="/">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div> 
 </body>
 </html>
