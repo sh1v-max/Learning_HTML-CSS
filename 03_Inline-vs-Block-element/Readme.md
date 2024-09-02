@@ -1,4 +1,4 @@
-# Here i have explained basic building blocks of HTML
+# Basic building blocks of HTML
 
 ## Image
 ![front-end](./images/image.png)
