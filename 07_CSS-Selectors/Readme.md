@@ -12,7 +12,7 @@ CSS selectors are used to select HTML elements and apply styles to them. They ar
   color: rgb(0, 140, 255);
 }
 ```
-## using id selector (#), hash 
+### using id selector (#), hash 
 ```css
 #html {
     font-size: 25px;
@@ -21,7 +21,7 @@ CSS selectors are used to select HTML elements and apply styles to them. They ar
     font-size: 25px;
 }
 ```
-## using attribute selector [], square 
+### using attribute selector [], square 
 ```css
 [class]{
     background-color: #6b6b6b;
