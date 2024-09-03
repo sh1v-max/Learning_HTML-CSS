@@ -6,7 +6,8 @@
 .one {
     background-color: aquamarine;
     width: 300px;
-    /* word-break: break-all; */
+    padding: 24px;
+    border: 10px solid teal;
 }
 
 .one-child {
