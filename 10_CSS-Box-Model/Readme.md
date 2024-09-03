@@ -43,4 +43,26 @@ The box model can be changed by using the `box-sizing` property. The default val
 - _want to set the width and height of an element and not have to worry about the padding and border also being added to the width and height._
 
 - _It is also useful when we want all elements to have the same box model, regardless of their border and padding._
+
+## Working with CSS Styles
+``` CSS
+.two {
+    background-color: #361601;
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    border: 8px solid rgb(225, 0, 255);
+    margin: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img{
+    width: 125%;
+    height: 125%;
+    margin-top: -24px;
+    margin-left: -25px;
+    background: linear-gradient(to bottom right, #3700ff,#ff2eff);
+}
+```
    
