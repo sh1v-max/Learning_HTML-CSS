@@ -24,11 +24,10 @@ li {
     color: aquamarine;
 }
 ```
+## Specificity
 
-Specificity: In case of conflicting styles, If there are two or more CSS
-rules that point to the same element, the selector with the highest
-specificity value will \"win\", and its style declaration will be
-applied to that HTML element.
+### In case of conflicting styles, If there are two or more CSS
+rules that point to the same element, the selector with the highest specificity value will \"win\", and its style declaration will be applied to that HTML element.
 
  - Start at 0, universal selector has 0  - id 100  -
 class/pseudo-class/attribute-selector 10  - element/pseudo-element 1
@@ -56,8 +55,8 @@ li {
     background-color: crimson;
 }
  ```
-
-Multiple CSS files: All cascade n specificity rules will be applied in files.  
+## Inheritance/Multiple CSS files
+### All cascade n specificity rules will be applied in files.  
 - If selectors has same specificity then styles of later file
 will be applied.  
 - If selectors has higher specificity in earlier file
