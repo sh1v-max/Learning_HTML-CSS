@@ -5,5 +5,6 @@ CSS (Cascading Style Sheets) is a style sheet language used for describing the p
 
 ## Image
 ```Most basic example```
+
 ![front-end](./src/image.png)
 
