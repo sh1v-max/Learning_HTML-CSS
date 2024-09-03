@@ -7,6 +7,8 @@ The CSS box model is a concept in CSS that describes how the width and height of
 - The **border area** is the area between the padding and the margin. It is the area that is defined by the `border` property of the element.
 - The **margin area** is the area outside the border. It is the area that is defined by the `margin` property of the element.
 
+![CSS Box Model](./src/box.png)
+
 The total width and height of an element is calculated by adding up the widths and heights of the content area, padding area, border area, and margin area.
 
 For example, if an element has a width of 300px, a padding of 20px, a border of 10px, and a margin of 30px, the total width of the element would be 300px + 20px + 10px + 30px = 360px.
