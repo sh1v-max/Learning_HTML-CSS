@@ -1,4 +1,19 @@
- #html {
+li.html#html {
+    background-color: darkolivegreen !important;
+    color: aquamarine;
+}
+
+li {
+    background-color: green !important;
+    color: aquamarine;
+}
+
+li {
+    background-color: cornflowerblue !important;
+    color: aquamarine;
+}
+
+#html {
     background-color: darkmagenta;
 }
 
@@ -8,11 +23,6 @@
 
 .html {
     background-color: cadetblue;
-}
-
-li {
-    background-color: green;
-    color: aquamarine;
 }
 
 li {
