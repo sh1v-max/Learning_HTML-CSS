@@ -45,6 +45,7 @@ The box model can be changed by using the `box-sizing` property. The default val
 - _It is also useful when we want all elements to have the same box model, regardless of their border and padding._
 
 ## Working with CSS Styles
+### image
 ``` CSS
 .two {
     background-color: #361601;
