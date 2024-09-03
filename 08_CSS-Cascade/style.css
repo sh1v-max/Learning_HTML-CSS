@@ -1,0 +1,68 @@
+li{
+    font-weight: 700;
+}
+
+/* using class selector(.), dot */
+.html {
+  color: rgb(255, 115, 0);
+}
+.css {
+  color: rgb(0, 140, 255);
+}
+.js {
+  color: rgb(255, 217, 0);
+}
+.react {
+  color: rgb(0, 183, 255);
+}
+.tailwind {
+  color: rgb(89, 0, 255);
+}
+
+/* using id selector (#), hash */
+#html {
+    font-size: 25px;
+}
+#css {
+    font-size: 25px;
+}
+#js {
+    font-size: 25px;
+}
+#react{
+    font-size: 25px;
+}
+#tailwind {
+    font-size: 25px;
+}
+
+/* using attribute selector [], square */
+[class]{
+    background-color: #6b6b6b;
+}
+
+[wazir]{
+    background-color: #7e7e7e;
+}
+[wazir=shiv]{
+    background-color: #8ddfff;
+}
+
+#web p {
+    background-color: rgb(226, 205, 174);
+}
+/*
+    This is an example of a descendant combinator selector. 
+    It selects all the <p> elements that are descendants of a <ul> element.
+    In other words, it selects all the <p> elements that are inside a <ul> element.
+    The background-color of the selected <p> elements will be blanchedalmond.
+*/
+
+h1:hover{
+    color: blueviolet;
+}
+
+[wazir=shiv]:hover{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+}
