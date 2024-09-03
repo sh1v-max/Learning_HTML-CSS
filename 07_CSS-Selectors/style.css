@@ -48,8 +48,8 @@ li{
     background-color: #8ddfff;
 }
 
-ul p {
-    background-color: blanchedalmond;
+#web p {
+    background-color: rgb(226, 205, 174);
 }
 /*
     This is an example of a descendant combinator selector. 
@@ -57,3 +57,12 @@ ul p {
     In other words, it selects all the <p> elements that are inside a <ul> element.
     The background-color of the selected <p> elements will be blanchedalmond.
 */
+
+h1:hover{
+    color: blueviolet;
+}
+
+[wazir=shiv]:hover{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+}
