@@ -1,17 +1,11 @@
-body {
-    height: 600px;
-}
-
 .parent {
-    /* width: 800px; */
     height: 50%;
     background-color: crimson;
 }
 
 .one {
     background-color: aquamarine;
-    width: 50%;
-    height: 50%;
+    width: 300px;
     /* word-break: break-all; */
 }
 

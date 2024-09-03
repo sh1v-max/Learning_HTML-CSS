@@ -15,4 +15,11 @@ For example, if an element has a width of 300px, a padding of 20px, a border of 
 
 The box model can be changed by using the `box-sizing` property. The default value is `content-box`, which calculates the width and height of the element as the content area plus the padding and border areas. The `border-box` value calculates the width and height of the element as the content area only, and the padding and border areas are subtracted from the width and height.
 
-```To avoid overflow we should always set max/min-width not absolute width.```
+`To avoid overflow you should always set max-with not absolute width.`
+
+`We use padding because to generate space around an element's content  `
+2. Border by default color set as our text color, but we can overright it.
+3. when we add padding & border the overral width of the box will increse , to avoid that we can use one property (box-sizing: border-box;) . 
+4. Margin will not affect our inner content. it apply in the outside of the box.
+5. for making circle using border radius property, user should must apply width & height.
+6. The outline is drawn outside the element's border, and may overlap other content. Also, the outline is NOT a part of the element's dimensions; the element's total width and height is not affected by the width of the outline.
