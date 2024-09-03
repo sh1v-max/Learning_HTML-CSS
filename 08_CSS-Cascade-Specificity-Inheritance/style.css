@@ -1,13 +1,29 @@
-.html{ 
-    background-color: #5a5a5a;
+#html {
+    background-color: darkmagenta;
 }
 
-li{
-    background-color: aqua;
+#html {
+    background-color: deeppink;
 }
-li{
-    background-color: rgb(162, 0, 255);
+
+.html {
+    background-color: cadetblue;
 }
-li{
-    background-color: rgb(0, 255, 106);
+
+li {
+    background-color: green;
+    color: aquamarine;
+}
+
+li {
+    background-color: orange;
+}
+
+li {
+    background-color: cornflowerblue;
+    color: brown;
+}
+
+.html {
+    background-color: crimson;
 }
