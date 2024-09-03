@@ -56,6 +56,7 @@ The box model can be changed by using the `box-sizing` property. The default val
     margin: 40px;
     border-radius: 50%;
     overflow: hidden;
+    outline: 15px solid #15ff00;
 }
 
 img{
@@ -64,7 +65,8 @@ img{
     margin-top: -24px;
     margin-left: -25px;
     background: linear-gradient(to bottom right, #3700ff,#ff2eff);
+    
 }
 ```
-### image
+### Image
 ![box-model](./src/image.png)
