@@ -1,6 +1,20 @@
+h1 {
+    color: blueviolet;
+    font-family: sans-serif;
+    /* text-align: center; */
+    font-family: sans-serif;
+}
+
 p{
     color: red;
-    font-size: 24px;
+    font-size: 44px;
     font-weight: 600;
-    text-decoration: underline wavy;
+    font-family: sans-serif;
+    text-align: center;
+    font-style: italic;
+    /* text-decoration: underline wavy; */
+}
+
+a {
+    text-decoration: none;
 }
