@@ -13,6 +13,18 @@ override the earlier one.
 with specificity taking precedence over order then styles with higher
 specificity will be applied.
 
+```css
+li {
+    background-color: green;
+    color: aquamarine;
+}
+
+li {
+    background-color: cornflowerblue;
+    color: aquamarine;
+}
+```
+
 Specificity: In case of conflicting styles, If there are two or more CSS
 rules that point to the same element, the selector with the highest
 specificity value will \"win\", and its style declaration will be
@@ -26,6 +38,24 @@ class/pseudo-class/attribute-selector 10  - element/pseudo-element 1
  - Inline style gets a specificity value of 1000
 
  - If you use the !important rule, it will even override inline styles.
+
+ ```css
+ li.html#html {
+    background-color: darkolivegreen !important;
+    color: aquamarine;
+}
+li {
+    background-color: cornflowerblue !important;
+    color: aquamarine;
+}
+
+#html {
+    background-color: darkmagenta;
+}
+.html {
+    background-color: crimson;
+}
+ ```
 
 Multiple CSS files: All cascade n specificity rules will be applied in files.  
 - If selectors has same specificity then styles of later file
