@@ -27,8 +27,13 @@ class/pseudo-class/attribute-selector 10  - element/pseudo-element 1
 
  - If you use the !important rule, it will even override inline styles.
 
-Multiple CSS files: All cascade n specificity rules will be applied
-in files.  - If selectors has same specificity then styles of later file
-will be applied.  - If selectors has higher specificity in earlier file
-and lower specificity in later file, then styles of earlier file will be
-applied.
+Multiple CSS files: All cascade n specificity rules will be applied in files.  
+- If selectors has same specificity then styles of later file
+will be applied.  
+- If selectors has higher specificity in earlier file
+and lower specificity in later file, then styles of earlier file will be applied.
+
+```css
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+```
