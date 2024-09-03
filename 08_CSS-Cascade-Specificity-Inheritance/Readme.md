@@ -1,6 +1,6 @@
 # Cascade, Specificity, and Inheritance in Web Development
-Cascadeing: The cascade is the algorithm for solving
-conflicts where multiple CSS rules apply to an HTML element.
+## Cascadeing
+### The cascade is the algorithm for solving conflicts where multiple CSS rules apply to an HTML element.
 
  - Cascade is the process of determining which styles will be applied to
 an HTML element when there are conflicting styles specified.
