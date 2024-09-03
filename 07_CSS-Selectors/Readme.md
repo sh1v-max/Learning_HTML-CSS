@@ -3,7 +3,7 @@
 
 CSS selectors are used to select HTML elements and apply styles to them. They are used to target specific elements in an HTML document and apply styles to them. CSS selectors are the core of CSS. Without them, we can't apply styles to our HTML documents. They are used to target elements by their tag name, class name, id and many other ways.
 
-/* using class selector(.), dot */
+```using class selector(.), dot```
 ```css
 .html {
   color: rgb(255, 115, 0);
@@ -12,7 +12,7 @@ CSS selectors are used to select HTML elements and apply styles to them. They ar
   color: rgb(0, 140, 255);
 }
 ```
-/* using id selector (#), hash */
+ ```using id selector (#), hash``` 
 ```css
 #html {
     font-size: 25px;
@@ -21,7 +21,7 @@ CSS selectors are used to select HTML elements and apply styles to them. They ar
     font-size: 25px;
 }
 ```
-/* using attribute selector [], square */
+```using attribute selector [], square``` 
 ```css
 [class]{
     background-color: #6b6b6b;
