@@ -6,4 +6,14 @@ The `<head>` tag is also used for routing in HTML. Routing is a way to map URLs 
 
 The most common use of the `<head>` tag for routing is to specify the URL of a page. This is done using the `<base>` tag, which specifies the base URL of a page. The `<base>` tag is used in conjunction with the `<a>` tag to specify the URL of a page.
 
-For example, the following code snippet specifies the base URL of a page as "http://example.com/":
+## Linking different pages in Body tag
+
+```CSS
+<body>
+    <h1>Hello World</h1>
+    <a href="/about.html">About us</a>
+    <a href="/contact.html">About us</a>
+    <a href="/frontend.html">Frontend</a>
+</body>
+```
+
