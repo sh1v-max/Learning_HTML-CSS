@@ -1,4 +1,4 @@
-# CSS Box Model
+# CSS Box Model with Block Element
 
 The CSS box model is a concept in CSS that describes how the width and height of an element is calculated. It is composed of four parts: the content area, the padding area, the border area, and the margin area.
 
