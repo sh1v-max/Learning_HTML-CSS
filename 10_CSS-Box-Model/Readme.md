@@ -65,4 +65,4 @@ img{
     background: linear-gradient(to bottom right, #3700ff,#ff2eff);
 }
 ```
-   
+![box-model](./src/image.png)
