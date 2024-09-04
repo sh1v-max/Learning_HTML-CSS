@@ -64,6 +64,22 @@ Example: `width: 50vw;`
 
 * `cap` (cap height): This unit is used to set lengths as a multiple of the height of the capital letter "M" in the font. For example, `width: 1.5cap;` would set the width of an element to 1.5 times the height of the capital letter "M" in the font.
 
+
+### Conclusion
+
+- In width & Height calculation, `%`unit is related to parent `width & Height`.
+- In padding & Margin calculation, `%`unit is related to parent `Width`.
+- In font-size calculation percentage is related to parent font-size.
+- Always try to give width value in `px` unit, not in `%` for better practice.
+- if you want to give height value in `%` unit, user must give parent height using `px` unit, otherwise it won't work.
+- if we want to give padding in `%`, it will calculate it from parent's width.
+    
+    example-: parent width: 500px; we give 10% padding in his child. so our padding should be 50. 
+- Margin behaves same as padding.
+- the percentage does not border.
+- font-size is calulated based on it's parent font-size.
+- `vh` stands for viewport height and `vw` for viewport width. As you can see, the first unit is based on the viewport height, and `1vh` is equivalent to `1%` of the viewport height. same for `vm`. So, `1vw` equals `1%` of the viewport width.
+
 ### Learn More
 
 For more information about CSS Units, visit: 
