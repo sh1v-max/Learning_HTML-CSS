@@ -40,10 +40,14 @@ Relative units are relative to the size of the element or the browser window.
 
 Font-relative lengths are relative to the size of the font.
 
-* `em`
-* `rem`
+###  em
+>- if we want to set font-size using `em` unit,it will consider its parent fontsize (16px by-default) as `1em`, and accordingly it will calculate the font size.
+>- but, if we want to set padding,width etc using `em` unit, it will consider its own font-size as `1em`, and calculate according to that.
 
-Example: `font-size: 1.5em;`
+###  rem
+> - There is another unit called `rem`, it will consider the font size of html/root (inside HTML tag) as `1rem` (16px by-default), and it will calculate according to that.
+> - Let suppose you have set `font-size: 40px;` inside HTML tag, than `1rem = 40px`
+Example: `font-size: 1.5rem;`
 
 ### Viewport-percentage Lengths
 
@@ -85,3 +89,4 @@ Example: `width: 50vw;`
 For more information about CSS Units, visit: 
 > - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units).
 > - [YouTube (recommended)](https://youtu.be/lZObX0jltus?si=olXfWWW6eg1E2q0p)
+> - [YouTube (for em/rem)](https://www.youtube.com/watch?v=tzVHqBFPTEM&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=22)
