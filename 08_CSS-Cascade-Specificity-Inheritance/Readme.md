@@ -66,3 +66,8 @@ and lower specificity in later file, then styles of earlier file will be applied
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
 ```
+
+### Learn More
+
+For more information about CSS Units, visit: 
+> - [YouTube](https://www.youtube.com/watch?v=eYA9n_lFTNY&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=15)

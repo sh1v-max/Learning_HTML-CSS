@@ -77,3 +77,10 @@ Example of non-replaced inline elements are:
 - for replaced elements every property works properly even if the element is inline example -: `<iframe>`, `<video>`, `<embed>`, `<img>` 
 - non-replaced elements are as similar as inline elements. examples -: 
 `<span>`, `<strong>`, `<i>`, `<b>`, `<em>`
+
+### Learn More
+
+For more information about CSS Units, visit: 
+> - [YouTube Part-1](https://www.youtube.com/watch?v=Ab5ztcNsanc&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=18)
+> - [YouTube Part-2](https://www.youtube.com/watch?v=1mPG8o4jSZI&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=19)
+> - [YouTube Part-3](https://www.youtube.com/watch?v=JnY16NvJbXE&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=20)
