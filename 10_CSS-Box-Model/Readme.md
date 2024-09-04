@@ -18,6 +18,11 @@ The CSS box model is a concept in CSS that describes how the width and height of
 
 ![CSS Box Model](./src/box.png)
 
+### What is Block Element:
+
+> A block element is an HTML element that takes up the full width available and starts on a new line. It is an element that is not an inline element. It is an element that is used to group other HTML elements together. It is an element that is used to add structure to the page, to group related content together, and to apply styles to a group of elements. It is an element that is used to create a container for other elements, such as a header, footer, or sidebar.
+
+
 The total width and height of an element is calculated by adding up the widths and heights of the content area, padding area, border area, and margin area.
 
 For example, if an element has a width of 300px, a padding of 20px, a border of 10px, and a margin of 30px, the total width of the element would be 300px + 20px + 10px + 30px = 360px.
