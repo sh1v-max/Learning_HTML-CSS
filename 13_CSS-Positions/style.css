@@ -1,38 +1,47 @@
-div{
+div {
     position: relative;
-    background-color:  greenyellow;
+    background-color: chartreuse;
     /* top: 5px;
+    bottom: 5px;
     left: 5px;
     right: 5px;
-    bottom: 5px;
     inset: 5px; */
 }
 
-ul{
-    background-color: lightpink;
+ul {
+    background-color: rgb(255, 0, 0);
     position: relative;
     height: 300px;
+    width: 50px;
+    margin-top: -100px;
+    /* overflow-y: scroll; */
 }
 
-.css-element{
+.css-element {
     background-color: aquamarine;
     position: absolute;
     top: 56px;
-    left: 5px;
-    right: 5px;
-
-
+    /* bottom: 5px; */
 }
 
-.js-element{
+.js-element {
     position: fixed;
     top: 10px;
     left: 10px;
     right: 10px;
-    background-color: darkgoldenrod;
+    background-color: darkorange;
 }
 
-.html-element{
+.html-element {
+    background-color: darkkhaki;
+    /* position: sticky; */
+
+    /* top: 25px; */
+}
+
+header {
+    background-color: greenyellow;
     position: sticky;
-    background-color: lightslategray;
+    height: 50px;
+    top: 1px;
 }
