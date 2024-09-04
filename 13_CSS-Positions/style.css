@@ -1,5 +1,4 @@
 div {
-    position: relative;
     background-color: chartreuse;
     /* top: 5px;
     bottom: 5px;
@@ -10,7 +9,6 @@ div {
 
 ul {
     background-color: rgb(255, 0, 0);
-    position: relative;
     height: 300px;
     width: 50px;
     margin-top: -100px;
