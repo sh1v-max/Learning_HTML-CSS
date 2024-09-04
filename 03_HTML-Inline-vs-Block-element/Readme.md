@@ -82,6 +82,8 @@ This is a `<span>` element inside a paragraph.
 - `<u>` - defines text that should be stylistically different from normal text
 - `<var>` - defines a variable
 
+## Important
+
 > - A block-level element always starts on a new line and takes up the full width available
 > - An inline element does not start on a new line and it only takes up as much width as necessary
 > - The `<div>` element is a block-level and is often used as a container for other HTML elements
