@@ -47,8 +47,7 @@ Font-relative lengths are relative to the size of the font.
 ###  rem
 > - There is another unit called `rem`, it will consider the font size of html/root (inside `HTML:root` tag) as `1rem` (16px by-default), and it will calculate according to that.
 > - Let suppose you have set `font-size: 40px;` inside `HTML/:root` tag, than `1rem = 40px`.
-> - `HTML` and `:root` tag, both are same.
-Example: `font-size: 1.5rem;`
+> - both `HTML` tag and `:root` tag are same.
 
 ### Viewport-percentage Lengths
 
