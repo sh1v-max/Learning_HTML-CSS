@@ -1,8 +1,6 @@
 # CSS Units
 
-## Length Units
-
-Length units are used to measure the length of an element in an HTML document. They are used to set the width, height, margin, padding, border, and other properties of an element.
+>CSS units are used to measure the length of an element in an HTML document. They are used to set the width, height, margin, padding, border, and other properties of an element.
 
 ### Absolute Units
 
