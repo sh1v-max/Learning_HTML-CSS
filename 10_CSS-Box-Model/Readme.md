@@ -79,7 +79,7 @@ img{
 
 ### Learn More
 
-For more information about CSS Units, visit: 
-> - [YouTube Part-1](https://www.youtube.com/watch?v=Ab5ztcNsanc&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=18)
-> - [YouTube Part-2](https://www.youtube.com/watch?v=1mPG8o4jSZI&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=19)
+For more information about CSS Box Model with Block Element, visit: 
+> - [YouTube Part-1 (recommended)](https://www.youtube.com/watch?v=Ab5ztcNsanc&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=18)
+> - [YouTube Part-2 (recommended)](https://www.youtube.com/watch?v=1mPG8o4jSZI&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=19)
 > - [YouTube Part-3](https://www.youtube.com/watch?v=JnY16NvJbXE&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=20)

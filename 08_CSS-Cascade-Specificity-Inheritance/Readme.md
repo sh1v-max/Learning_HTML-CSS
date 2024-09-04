@@ -69,5 +69,6 @@ and lower specificity in later file, then styles of earlier file will be applied
 
 ### Learn More
 
-For more information about CSS Units, visit: 
-> - [YouTube](https://www.youtube.com/watch?v=eYA9n_lFTNY&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=15)
+For more information about Cascade, Specificity and Inheritance, visit: 
+> - [YouTube (recommended)](https://www.youtube.com/watch?v=eYA9n_lFTNY&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=15)
+> - [YouTube](https://www.youtube.com/watch?v=eYA9n_lFTNY&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=16)

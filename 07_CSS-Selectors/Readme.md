@@ -38,5 +38,5 @@
 
 ### Learn More
 
-For more information about CSS Units, visit: 
+For more information about CSS Selectors, visit: 
 > - [YouTube](https://www.youtube.com/watch?v=HRPLnCBzmx8&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=14)
