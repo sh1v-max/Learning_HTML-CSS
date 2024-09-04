@@ -42,7 +42,7 @@ Font-relative lengths are relative to the size of the font.
 
 ###  em
 >- if we want to set font-size using `em` unit,it will consider its parent fontsize (16px by-default) as `1em`, and accordingly it will calculate the font size.
->- but, if we want to set padding,width etc using `em` unit, it will consider its own font-size as `1em`, and calculate according to that.
+>- but, When using `em` units for properties like width, padding, or margin they are relative to the element's own font size.
 
 ###  rem
 > - There is another unit called `rem`, it will consider the font size of html/root (inside `HTML:root` tag) as `1rem` (16px by-default), and it will calculate according to that.
