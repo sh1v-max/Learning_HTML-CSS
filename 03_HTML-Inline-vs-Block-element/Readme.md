@@ -82,9 +82,9 @@ This is a `<span>` element inside a paragraph.
 - `<u>` - defines text that should be stylistically different from normal text
 - `<var>` - defines a variable
 
-> A block-level element always starts on a new line and takes up the full width available
-> An inline element does not start on a new line and it only takes up as much width as necessary
-> The `<div>` element is a block-level and is often used as a container for other HTML elements
-> The `<span>` element is an inline container used to mark up a part of a text, or a part of a document
+> - A block-level element always starts on a new line and takes up the full width available
+> - An inline element does not start on a new line and it only takes up as much width as necessary
+> - The `<div>` element is a block-level and is often used as a container for other HTML elements
+> - The `<span>` element is an inline container used to mark up a part of a text, or a part of a document
 ## Image
 ![front-end](./images/image.png)
