@@ -8,7 +8,8 @@
 >* `padding`: sets the amount of space between an element's content and its border
 >* `margin`: sets the amount of space between an element and its parent element
 >* `border`: sets the size and style of an element's border
->* `width` and `height`: set the width and height of an element
+>* `width` and `height`: set the width and height of an element.
+>* and more...
 
 ## Transform
 
@@ -33,7 +34,6 @@ The `transform` property is used to apply transformations to an element.
 * `translate3d(x, y, z)`: Moves an element in 3D space by x, y, and z pixels.
 * `perspective(n)`: Sets the perspective of an element to n pixels.
 
-Code example
 ```CSS
 .box {
     width: 100px;
@@ -82,6 +82,9 @@ The `transition` property is used to smoothly change the value of a CSS property
 * `steps(n, start)`: A step transition with n steps and start value.
 
 ## Opacity
+The `opacity` property is used to set the opacity of an element.
+
+* `opacity: 0.5;` sets the opacity of an element to 50%.
 
 ### Difference between `opacity` and `transparent`
 
@@ -105,12 +108,22 @@ The `box-shadow` property is used to add a shadow to an element.
 
 * `box-shadow: x-offset y-offset blur-radius spread-radius color;` adds a shadow to an element.
 * `box-shadow: inset x-offset y-offset blur-radius spread-radius color;` adds an inset shadow to an element.
+```CSS
+div {
+  box-shadow: 10px 10px 5px 12px lightblue;
+}
+```
 
 ## Text Shadow
 
 The `text-shadow` property is used to add a shadow to text.
 
 * `text-shadow: x-offset y-offset blur-radius color;` adds a shadow to text.
+```CSS
+h1 {
+  text-shadow: 2px 2px 8px #FF0000;
+}
+```
 
 
 ### Learn More
