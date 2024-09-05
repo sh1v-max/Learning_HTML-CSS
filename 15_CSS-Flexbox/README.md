@@ -106,7 +106,9 @@ The following example demonstrates how to use flexbox to create a flexible grid 
 </div>
 ```
 
-### Some other demonstrations
+## Some demonstrations
+
+### To allign nav bar (type-1)
 
 code
 ```CSS
@@ -121,9 +123,47 @@ code
 
 ```
 image
-![flexbox](./src/image.png)
+![flexbox](./src/image3.png)
 
 > Think about `align-items: flex-start;`
+
+### To allign nav bar (type-2)
+
+code
+```CSS
+.parent{
+    padding: 10px;
+    /* border: 4px solid indianred; */
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+```
+image
+![flexbox](./src/image2.png)
+
+
+### To allign nav bar (type-3)
+
+code
+```CSS
+.parent{
+    padding: 10px;
+    /* border: 4px solid indianred; */
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+
+```
+image
+![flexbox](./src/image.png)
+
 ### Learn More
 
 For more information about CSS Flexbox, visit: 
