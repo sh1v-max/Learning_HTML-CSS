@@ -2,20 +2,43 @@ body{
     margin: 0;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 .parent{
     padding: 10px;
     border: 4px solid indianred;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: flex-start;
 }
 
 .parent span{
-    border: 4px solid cadetblue;
+    /* border: 4px solid cadetblue; */
+    background-color: cadetblue;
+    flex-shrink: 0;
+    /* width: 200px; */
+    /* height: 300px; */
+    /* flex-grow: 1; */
 }
 
 .parent p{
-    border: 4px solid darkkhaki;
+    /* border: 4px solid darkkhaki; */
+    background-color: darkkhaki;
+    margin: 0;
+    flex-shrink: 0;
+    width: 400px;
+    /* width: 400px; */
+    /* width: max-content; */
+    /* width: min-content; */
 }
 
 .parent a{
-    border: 4px solid yellowgreen;
+    /* border: 4px solid yellowgreen; */
+    background-color: yellowgreen;
     flex-shrink: 0;
+    width: 400px;
+    /* flex-shrink: 0; */
 }
