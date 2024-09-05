@@ -40,7 +40,7 @@ main {
 
 .box:hover{
     box-shadow: 1px 1px 10px 3px #002d05;
-    transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg) scale(1.5);
 }
 
 h1{
