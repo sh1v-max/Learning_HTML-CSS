@@ -1,0 +1,26 @@
+main{
+    height: 400px;
+    width: 400px;
+    /* background-color: rgb(56, 56, 56); */
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    /* opacity: 0.5; */
+    transform: scale(2);
+    /* transform-origin: 0 0; */
+    /* transform: rotate(45deg); */
+    /* transform: translateY(50px); */
+    transform: translateX(100%);
+    transform: translate(100%, 100%);
+    /* margin-top: 100px; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 5px #707070d3;
+}
