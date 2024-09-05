@@ -62,6 +62,7 @@ The `transform` property is used to apply transformations to an element.
 ## Transition
 
 The `transition` property is used to smoothly change the value of a CSS property over a given duration.
+> `hover` is most used transition property
 
 ### Transition Property
 
@@ -81,6 +82,11 @@ The `transition` property is used to smoothly change the value of a CSS property
 * `step-end`: A step-end transition.
 * `steps(n, start)`: A step transition with n steps and start value.
 
+### Examples of Transition Property
+
+* `transition-property: all;` - Transition all properties.
+* `transition-property: background-color, color;` - Transition only background-color and color properties.
+* `transition-property: none;` - No transition.
 ## Opacity
 The `opacity` property is used to set the opacity of an element.
 

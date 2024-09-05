@@ -8,6 +8,8 @@ main {
   position: relative;
   border-radius: 10px;
   box-shadow: 4px 4px 10px 5px #707070d3;
+  /* transform: scale(2);
+  transform-origin: 0 0; */
 }
 
 .box {
@@ -31,8 +33,16 @@ main {
   top: 50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
-  box-shadow: 4px 4px 10px 5px #ffffffd3;
+  box-shadow: 4px 4px 10px 5px #5d5d5dd3;
+  transition: all 200ms;
   /* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
-  color: rgb(255, 255, 255);
-  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
 }
+
+.box:hover{
+    box-shadow: 1px 1px 10px 3px #002d05;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;}
