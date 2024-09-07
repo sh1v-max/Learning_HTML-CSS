@@ -7,11 +7,16 @@ body {
 }
 
 .parent {
-    padding: 10px;
-    height: 50vh;
+    /* padding: 10px; */
+    /* height: 50vh; */
+    /* height: 200px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* row-gap: 10px; */
+    /* column-gap: 10px; */
     /* flex-direction: column; */
     /* border: 4px solid indianred; */
     /* justify-content: center; */
@@ -32,24 +37,45 @@ body {
     /* width: 200px; */
     /* height: 300px; */
     /* flex-grow: 1; */
+    /* width: 100%; */
+    /* width: 100px; */
+    /* flex-basis: 400px; */
+    /* flex-basis: 100%; */
+    /* flex-basis: 100px; */
 }
 
 .parent p {
     background-color: darkkhaki;
-    margin: 0;
-    width: 400px;
+    /* margin: 0; */
+    /* width: 400px; */
     /* border: 4px solid darkkhaki; */
     /* width: max-content; */
     /* width: min-content; */
     /* flex-shrink: 0; */
     /* flex-grow: 1; */
+    /* width: 100%; */
+    /* flex-basis: 100%; */
+    /* flex-basis: 100px; */
 }
 
 .parent a {
     /* border: 4px solid yellowgreen; */
     background-color: yellowgreen;
-    width: 400px;
+    /* width: 400px; */
     height: 150px;
     /* flex-shrink: 0; */
     /* flex-grow: 1; */
+    /* width: 100%; */
+    /* flex-basis: 100%; */
+    /* flex-basis: 100px; */
 }
+
+.parent > *{
+    width: 250px;
+    /* margin-left: 15px; */
+    /* flex-shrink: 0; */
+}
+ 
+/* .parent > *+* {
+    margin-left: 15px;
+} */
