@@ -1,0 +1,14 @@
+.square {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border: 25px solid blue;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+}
+
+@media print{
+    .square {
+        border: 25px solid red;
+    }
+}
