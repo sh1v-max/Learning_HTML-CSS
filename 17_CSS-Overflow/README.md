@@ -13,6 +13,8 @@ The `overflow` property takes one of the following values:
 - `scroll`: This value adds a scrollbar to the container so that the user can scroll to see the content that is outside the container.
 - `auto`: This value adds a scrollbar to the container if the content is larger than the container. If the content is not larger than the container, then no scrollbar is added.
 
+
+
 ## Examples of Overflow
 
 ### visible
@@ -79,4 +81,18 @@ The `overflow` property takes one of the following values:
 </div>
 ```
 
+### All CSS Overflow Properties
 
+| Property | Description |
+| --- | --- |
+| `overflow` | Specifies what happens if content overflows an element's box |
+| `overflow-wrap` | Specifies whether or not the browser can break lines with long words, if they overflow its container |
+| `overflow-x` | Specifies what to do with the left/right edges of the content if it overflows the element's content area |
+| `overflow-y` | Specifies what to do with the top/bottom edges of the content if it overflows the element's content area |
+
+
+### Learn More
+
+For more information about CSS Overflow, visit: 
+> - [W3Schools](https://www.w3schools.com/css/css_overflow.asp)
+> - [YouTube (Recommended)](https://www.youtube.com/watch?v=berhfH0W4Vw&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=33&ab_channel=AnuragSinghProCodrr)

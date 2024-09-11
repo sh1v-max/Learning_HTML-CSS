@@ -26,3 +26,8 @@ The most commonly used media features are:
 
 Example of a media query using `max-width`:
 
+### Learn More
+
+For more information about CSS Media Types and Queries, visit: 
+> - [YouTube part 1](https://www.youtube.com/watch?v=AhDPtHd_7i0&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=30&ab_channel=AnuragSinghProCodrr)
+> - [YouTube part 2](https://www.youtube.com/watch?v=LJJz1M1qbVE&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=31&ab_channel=AnuragSinghProCodrr)
