@@ -1,0 +1,32 @@
+/* body{
+    margin: 0;
+}
+
+.text-img{
+    display: flex;
+} */
+
+/* img{
+    display: inline-block;
+    margin: 10px;
+    height: 50px;
+} */
+
+/* p{
+    display: inline
+} */
+
+img:first-of-type + p {
+  padding-left: 110px;
+  display: inline-block;
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
