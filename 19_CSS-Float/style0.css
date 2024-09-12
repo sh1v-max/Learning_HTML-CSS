@@ -1,0 +1,85 @@
+/* body{
+    margin: 0;
+}
+
+.text-img{
+    display: flex;
+} */
+
+/* img{
+    display: inline-block;
+    margin: 10px;
+    height: 50px;
+} */
+
+/* p{
+    display: inline
+} */
+
+/* p {
+  padding-left: 110px;
+  display: inline-block;
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+/* .text-img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.image {
+    margin-right: 15px;
+    max-width: 80px;
+}
+
+p {
+    flex: 1;
+} */
+
+/* .text-img {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.image {
+    width: 80px;
+    height: auto;
+    shape-outside: square();
+    clip-path: inset(0);
+    float: left; /* This allows the text to wrap around *
+    margin: 0 15px 15px 0;
+}
+p {
+    text-align: justify;
+} */ 
+
+
+.text-img {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.image {
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+p {
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    width: calc(100% - 180px); /* Adjust based on image width and margin */
+}
