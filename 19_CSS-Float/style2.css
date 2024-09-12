@@ -12,10 +12,15 @@
     color: white;
     font-size: 4rem;
     padding: 1rem;
+    float: left;
+    /* float: right; */
+    /* position: absolute; */
 }
 
 .box-1 {
     background-color: green;
+    /* position: absolute; */
+    /* float: left; */
 }
 
 .box-2 {
@@ -28,6 +33,7 @@
 
 .box-4 {
     background-color: brown;
+    clear: left;
 }
 
 .box-5 {
