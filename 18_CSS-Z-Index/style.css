@@ -19,14 +19,18 @@ body {
 
 .red-box {
     background-color: red;
+    position: relative;
+    /* z-index: 10; */
 }
 
 .green-box {
     background-color: green;
     margin-left: 4rem;
+    position: relative;
 }
 
 .blue-box {
     background-color: blue;
     margin-left: 8rem; 
+    position: relative;
 }
