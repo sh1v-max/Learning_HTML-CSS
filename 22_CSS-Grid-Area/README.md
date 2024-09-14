@@ -74,5 +74,4 @@ The following properties can be used to control the alignment of grid items:
 
 For more information about CSS Overflow, visit: 
 > - [W3Schools](https://www.w3schools.com/CSS/css_grid.asp)
-> - [YouTube (part-1)](https://www.youtube.com/watch?v=npLvEXoLVZQ&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=37&pp=iAQB)
-> - [YouTube (part-2)](https://www.youtube.com/watch?v=p-CfOVelX3o&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=38&pp=iAQB)
+> - [YouTube (grid-area)](https://www.youtube.com/watch?v=YulUVlGw7cw&list=PLfEr2kn3s-br9ZFmejfLhAgMbGgbpdof8&index=40)
