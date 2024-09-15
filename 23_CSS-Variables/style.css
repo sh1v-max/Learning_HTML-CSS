@@ -1,5 +1,8 @@
 body {
   font-family: sans-serif;
+  --primary-color: #fa6400;
+  --secondary-color: #405cf5;
+  --rounded:24px;
 }
 
 * {
@@ -7,47 +10,47 @@ body {
 }
 
 h2 {
-    color: #2ea44f;
+    color: var(--secondary-color);
 }
 
 a {
-  color: #ea4c89;
+  color: var(--primary-color);
   text-decoration: none;
-  border: 2px solid #ea4c89;
+  border: 2px solid var(--primary-color);
   padding: 0.5em 1em;
   font-size: 14px;
   display: inline-block;
   height: 32px;
   vertical-align: middle;
-  border-radius: 4px;
+  border-radius: var(--rounded);
 }
 
 strong {
-  color: #ea4c89;
+  color: var(--primary-color);
 }
 
 span {
-    color: #ea4c89;
+    color: var(--primary-color);
 }
 
 code {
-    color: #2ea44f;
+    color: var(--secondary-color);
 }
 
 button {
   border: none;
   color: #fff;
   padding: 0.5em 1em;
-  border-radius: 4px;
+  border-radius: var(--rounded);
   font-size: 14px;
   font-family: inherit;
   height: 32px;
 }
 
 .previous-button {
-  background-color: #ea4c89;
+  background-color: var(--primary-color);
 }
 
 .next-button {
-  background-color: #2ea44f;
+  background-color: var(--secondary-color);
 }
