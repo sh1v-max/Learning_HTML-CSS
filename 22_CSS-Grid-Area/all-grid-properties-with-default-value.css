@@ -17,7 +17,7 @@
 /* Optional to Know */
 .container {
   grid-template-areas: none;
-  grid-auto-rows: auto;
+  grid-auto-rows: vauto;
   grid-auto-columns: auto;
   grid-auto-flow: row;
 }
