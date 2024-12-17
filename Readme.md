@@ -114,6 +114,7 @@ CSS was introduced to separate content and design, addressing the lack of stylin
 
 ## Topics
 Topics in detail:
+### HTML
 
 | S No.    | Topics                                 |
 |----------|---------------------------------------|
@@ -124,32 +125,32 @@ Topics in detail:
 | 5        | [HTML Forms and Inputs](./04_HTML_Form-Element/Readme.md) |
 | 6        | [HTML Multimedia](./05_HTML-Head-tag-and-Routing/multimedia.md) |
 | 7        | [HTML Head tag and Routing](./05_HTML-Head-tag-and-Routing/Readme.md) |
-| 7        | [HTML Tables](./05_HTML-Head-tag-and-Routing/tables.md) |
-| 8        | [Introduction to CSS](./06_CSS-Intro/Readme.md) |
-| 9        | [CSS Selectors](./07_CSS-Selectors/Readme.md) |
-| 9        | [CSS Cascade, Specificity, and Inheritance](./08_CSS-Cascade-Specificity-Inheritance/cascade-specificity-and-inheritance.md) |
-| 9        | [CSS Overriding Specificity](./09_CSS-Overriding-Specificity/Readme.md) |
-| 9        | [CSS Box Model](./10_CSS-Box-Model/Readme.md) |
-| 9        | [CSS Box Model with Inline Elements](./11_CSS-Box-Model-with-Inline-Elements/Readme.md) |
-| 9        | [CSS Box Model with Inline Elements part-2](./11_CSS-Box-Model-with-Inline-Elements/css-box-model-with-inline-lements.md) |
-| 9        | [CSS Units](./12_CSS-UNITS/Readme.md) |
+| 8        | [HTML Tables](./05_HTML-Head-tag-and-Routing/tables.md) |
+
+### CSS
+| S No.    | Topics                                 |
+|----------|---------------------------------------|
+| 1        | [Introduction to CSS](./06_CSS-Intro/Readme.md) |
+| 2        | [CSS Selectors](./07_CSS-Selectors/Readme.md) |
+| 3       | [CSS Cascade, Specificity, and Inheritance](./08_CSS-Cascade-Specificity-Inheritance/cascade-specificity-and-inheritance.md) |
+| 4        | [CSS Overriding Specificity](./09_CSS-Overriding-Specificity/Readme.md) |
+| 5        | [CSS Box Model](./10_CSS-Box-Model/Readme.md) |
+| 6        | [CSS Box Model with Inline Elements](./11_CSS-Box-Model-with-Inline-Elements/Readme.md) |
+| 7        | [CSS Box Model with Inline Elements part-2](./11_CSS-Box-Model-with-Inline-Elements/css-box-model-with-inline-lements.md) |
+| 8        | [CSS Units](./12_CSS-UNITS/Readme.md) |
 | 9        | [CSS Positions](./13_CSS-Positions/positions.md) |
-| 9        | [CSS Positions in brief](./13_CSS-Positions/Readme.md) |
-| 9        | [CSS Properties](./14_CSS-Properties/properties.md) |
-| 9        | [CSS Properties part-2](./14_CSS-Properties/Readme.md) |
-| 9        | [CSS](./) |
-| 9        | [CSS](./) |
-| 9        | [CSS](./) |
-| 9        | [CSS](./) |
-| 9        | [CSS](./) |
-| 8        | [CSS Selectors](./08_CSS-Selectors/README.md) |
-| 9        | [CSS Box Model](./09_CSS-Box-Model/README.md) |
-| 10       | [CSS Flexbox](./10_CSS-Flexbox/README.md) |
-| 11       | [CSS Grid](./11_CSS-Grid/README.md) |
-| 12       | [CSS Animations](./12_CSS-Animations/README.md) |
-| 13       | [Responsive Design with Media Queries](./13_Responsive-Design/README.md) |
-| 14       | [CSS Positioning](./14_CSS-Positioning/README.md) |
-| 15       | [CSS Pseudo-Elements and Classes](./15_CSS-Pseudo-Elements/README.md) |
+| 10        | [CSS Positions in brief](./13_CSS-Positions/Readme.md) |
+| 11        | [CSS Properties](./14_CSS-Properties/properties.md) |
+| 12        | [CSS Properties part-2](./14_CSS-Properties/Readme.md) |
+| 13        | [CSS Flexbox](./15_CSS-Flexbox/README.md) |
+| 14        | [CSS Media Types](./16_CSS-Media-Types/README.md) |
+| 15        | [CSS Overflow](./17_CSS-Overflow/README.md) |
+| 16        | [CSS Z-Index](./18_CSS-Z-Index/README.md) |
+| 17        | [CSS Float](./19_CSS-Float/README.md) |
+| 18        | [CSS Grid](./20_CSS-GRID/README.md) |
+| 19        | [CSS Animations](./22_CSS-Grid-Area/animations.md) |
+| 20        | [CSS Pseudo-Elements and Classes](./07_CSS-Selectors/PseudoElements-and-Classes.md) |
+| 21        | [CSS Variables](./23_CSS-Variables/README.md) |
 
 
 ## Conclusion
@@ -159,5 +160,3 @@ HTML and CSS form the foundation of modern web development. HTML provides the st
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 - [W3Schools](https://www.w3schools.com/html/)
 - [CSS Tricks](https://css-tricks.com/)
-- [FreeCodeCamp](https://www.freecodecamp.org/news/html-and-css-crash-course/)
-
